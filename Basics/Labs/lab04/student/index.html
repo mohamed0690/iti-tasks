@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Student Information</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+      <div class="container">
+        <h1>Student Information</h1>
+        <div class="form">
+          <label for="name">Student Name:</label>
+          <input type="text" id="name" placeholder="Enter student name">
+          <label for="age">Student Age:</label>
+          <input type="number" id="age" placeholder="Enter student age">
+          <button onclick="addStudent()">Add Student</button>
+        </div>
+    
+        <table>
+          <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Action</th>
+          </tr>
+          <tbody id="studentTable">
+
+         </tbody>
+        </table>
+      </div>
+    
+      <script src="script.js"></script>
+    </body>
+    </html>
+    

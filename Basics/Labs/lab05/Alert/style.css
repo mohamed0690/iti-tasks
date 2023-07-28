@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border-radius: 10px;
+
+}
+.alert{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    background-color: #ccc;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);    height: 70%;
+    padding: 50px;
+    min-height: 80%;
+
+}
+.buttons{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 20px;
+    
+}
+button{
+    padding: 10px 20px;
+    border:none ;
+}
+.btn-success{
+    background-color: rgb(226, 240, 226);
+
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 10px;
+
+}
+
+.btn-error{
+    background-color: rgb(226, 240, 226);
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 10px;
+    
+}
+.message{
+    
+    opacity: 0;
+    background-color: rgb(226, 240, 226);
+    padding: 20px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+.message h2{
+    padding: 20px 10px;
+    color: green;
+}
+.message .fa-circle-check{
+    margin: 20px 0px;
+}
+
+.fa-circle-check{
+   color: green;
+}
+.fa-circle-xmark{
+    color: red;
+}
+.btn-error:hover{
+    background-color:#999;
+}
+.btn-success:hover{
+    background-color:#999;
+
+}
+.message p{
+    font-weight: 500;
+    color: green;
+}
+.bg{
+    background-color: red;
+}

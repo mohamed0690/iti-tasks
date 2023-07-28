@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Form Information</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Form Information</h1>
+      <form class="form">
+        <div class="name-div">
+          <label for="name">Name:</label>
+          <input type="text" id="name" placeholder="Enter name" />
+        </div>
+        <span>name is not valid.</span>
+        <div class="password-div">
+          <label for="password">Password:</label>
+          <input type="password" id="password" placeholder="Enter password" />
+        </div>
+        <span>password must be 8 chars at least.</span>
+
+        <div class="email-div">
+          <label for="email">Email:</label>
+          <input type="email" id="email" placeholder="Enter email" />
+        </div>
+        <span>email is not valid</span>
+        <div class="country-div">
+          <label for="country">Country:</label>
+          <input list="counties" type="country" id="country" placeholder="Enter country" />
+          <datalist id="counties">
+            <option value="Egypt">
+            <option value="USA">
+            <option value="Canada">
+            <option value="France">
+          </datalist>
+        </div>
+        <span>please select your country</span>
+        <div class="gender">
+          <label for="gender">Gender:</label>
+          <input type="radio" name="gender" id="male" />
+          <label for="male">Male</label>
+          <input type="radio" name="gender" id="female" />
+          <label for="female">Female</label>
+        </div>
+        <span>please select your gender</span>
+
+        <div class="sports">
+          <label for="sports">Sports: </label>
+          <input type="checkbox" name="sports" id="tennis" />
+          <label for="tennis">Tennis</label>
+          <input type="checkbox" name="sports" id="running" />
+          <label for="running">Running</label>
+          <input type="checkbox" name="sports" id="football" />
+          <label for="football">Football</label>
+        </div>
+        <span>please select at least two sports</span>
+
+        <div class="buttons">
+          <button type="submit" disabled id="submit">Submit</button>
+          <button type="reset" class="btn-reset" >Reset</button>
+        </div>
+        
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

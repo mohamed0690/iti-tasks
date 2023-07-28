@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border-radius: 10px;
+
+}
+.balls{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ccc;
+
+}
+.container{
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);    height: 70%;
+    padding: 50px;
+    height: 50%;
+    background-color: white;
+
+}
+.buttons{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 20px;
+    
+}
+button{
+    padding: 10px 20px;
+    border:none ;
+}
+.btn-start{
+    background-color: rgb(226, 240, 226);
+
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 10px;
+
+}
+
+.btn-stop{
+    background-color: rgb(226, 240, 226);
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 10px;
+    
+}
+button:hover{
+    background-color:#999;
+}

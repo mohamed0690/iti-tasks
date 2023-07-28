@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+}
+.slider-container {
+  width: 80%;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+}
+
+.slider {
+  transition: transform 0.3s ease-in-out;
+  width: 100%;
+  margin: 10px;
+}
+
+.slider img {
+  height: 600px;
+  width: 100%;
+  border: 10px gray solid;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.prev-btn,
+.next-btn {
+  position: absolute;
+  top: 50%;
+  background-color: #333;
+  color: #fff;
+  padding: 8px 16px;
+  border: 10px gray solid;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.prev-btn {
+  left: 10px;
+}
+
+.next-btn {
+  right: 10px;
+}
+.div{
+  display: flex;
+  justify-content: space-around;
+}
+.start-btn,.stop-btn{
+  width: 200px;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: gray;
+  
+}

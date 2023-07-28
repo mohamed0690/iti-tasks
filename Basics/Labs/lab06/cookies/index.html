@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Example</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <form id="myForm" action="">
+        <div class="info">
+          <div class="form-group">
+            <label for="name">Enter Your Name:</label>
+            <input type="text" id="name" required />
+          </div>
+          <div class="form-group">
+            <label for="age">Enter Your Age:</label>
+            <input type="text" id="age" required />
+          </div>
+        </div>
+
+        <div class="gender">
+          <label>Select Your Gender:</label>
+          <div class="gender-option">
+            <img src="./imgs/1.jpg" alt="Man" />
+            <input type="radio" name="gender" id="male" required />
+            <label for="male">Male</label>
+          </div>
+          <div class="gender-option">
+            <img src="./imgs/2.jpg" alt="Woman" />
+            <input type="radio" name="gender" id="female" required />
+            <label for="female">Female</label>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="fav-color">Select Your Favorite Color:</label>
+          <input
+            class="input-color"
+            type="color"
+            value="red"
+            id="fav-color"
+            required
+          />
+        </div>
+        <button id="btn-submit" type="submit">Submit</button>
+      </form>
+    </div>
+    <script src="./js/cookie.js"></script>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
